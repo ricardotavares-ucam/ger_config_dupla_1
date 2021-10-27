@@ -1,8 +1,8 @@
-Class Animal:
+class Animal:
     def _init_(self, nome_animal, idade, sexo ):
-    self.nome_animal = nome_animal
-    self.idade = idade
-    self.sexo = sexo
+        self.nome_animal = nome_animal
+        self.idade = idade
+        self.sexo = sexo
 
     def setnome_animal(self,nome_animal):
         self.nome_animal = nome_animal
@@ -17,4 +17,3 @@ Class Animal:
         return self.idade = idade
     def getsexo(self,sexo):
         return self.sexo = sexo
-    
